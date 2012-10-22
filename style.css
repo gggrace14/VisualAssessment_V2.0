@@ -1,0 +1,176 @@
+@CHARSET "UTF-8";
+
+
+.mycss .dijitButtonNode {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 7.5px 15px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: medium;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.mycssHover .dijitButtonNode {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.mycssActive .dijitButtonNode {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+div.myLogin{
+	height: auto;
+	font-size: medium;
+
+}
+
+p.myLogin{
+	margin: 25px auto 10px auto;
+	width: 75%;
+	font: xx-large bold;
+	font-family: Helvetica, Arial, Sans-Serif;
+	color: #cc5291;
+	border-bottom: 2px solid #cc5291;
+}
+
+table.myLogin{
+	margin: 20px 15% auto 25%;
+	width: 60%;
+	table-layout: fixed;
+}
+
+td.myLoginLabel{
+	padding: 10px;
+	width: 25%;
+}
+
+td.myLoginText{
+	padding: 10px;
+	width: 75%;
+}
+
+td.myLoginNestedLabel{
+	font-size: small;
+	width: 10%;
+}
+
+td.myLoginNestedText{
+	padding-right: 20px;
+	width: 40%;
+}
+
+td.myLoginInstruction{
+	color: #cc5291;
+	font-size: small;
+}
+
+td.myLoginButton{
+	padding: 10px;
+	text-align: center;
+}
+
+.dijitTextBox{
+	width: 100%;
+	padding: 5px;
+	
+}
+
+.tundra .dijitSelect .dijitButtonContents{
+	padding: 5px;
+}
+
+td.myRatingButtonBack{
+	padding: 8px;
+	text-align: left;
+}
+
+td.myRatingButtonSubmit{
+	padding: 8px;
+	text-align: center;
+}
+
+td.myRatingButtonExit{
+	padding: 8px;
+	text-align: right;
+}
+
+div.myRating{
+	margin: 10% auto 30px auto;
+	width: 60%;
+	font: large bold;
+	color: #cc5291;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+div.myRatingImageTable{
+	float: left;
+	width: 96%;
+	margin: 20px 1.5%;
+}
+
+div.myRatingResultTable{
+	margin: 20px 1.5% 10px;
+	border: 2px dashed lightgray;
+	width: 96%;
+	min-height: 150px;
+	float: left;
+	text-align: center;
+	font: large bold;
+	color: lightgray;
+	font-family: Helvetica, Arial, Sans-Serif;
+	
+}
+
+div.myRatingNumber{
+	 float: left;
+	 width: 96%;
+	 margin: 0px 1.5%;
+}
+
+div.myRatingAlert{
+	float: left;
+	color: red;
+	margin: 3px 20px;
+	visibility: hidden;
+}
+
+table.myRatingButtonTable{
+	clear: left;
+	margin: 0px auto;
+}
+
+h1.myEnd{
+	margin: 10% 10% 5%;;
+}
+
+p.myEnd{
+	margin: 15% auto auto;
+	width: 80%;
+	font: x-large bold;
+}
+
+div.myWelcome{
+	margin: 15% 10% auto;
+}
+
+p.myWelcome{
+	margin: 50px auto auto auto;
+	font: x-large bold;
+	text-align: center;
+}
+
